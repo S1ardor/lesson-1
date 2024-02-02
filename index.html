@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lesson-1</title>
+        <link rel="stylesheet" href="./main.css">
+        <link rel="apple-touch-icon" sizes="180x180"
+            href="http://cdn.uzmovi.com/v1/images/favicon/apple-touch-icon.png?v=2.7.1">
+        <link rel="icon" type="image/png" sizes="32x32"
+            href="http://cdn.uzmovi.com/v1/images/favicon/favicon-32x32.png?v=2.7.1">   
+    </head>
+    <body>
+        <header class="navbar">
+            <nav>
+                <div class="container">
+                    <div class="header">
+                        <div class="header__content">
+                            <img class="uzmovi__img"
+                                src="./images/uzmovie.logo.gif"
+                                alt="uzmovie img">
+                            <ul class="text">
+                                <li class="list">BOSH SAHIFA</li>
+                                <li class="list">KINOLAR</li>
+                                <li class="list">SERIALLAR</li>
+                                <li class="list">JANR</li>
+                                <li class="list">YIL</li>
+                                <li class="list">MAMLAKAT</li>
+                                <li class="list">KINOLAR</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="section__box-control">
+            <div class="container">
+                <div class="section__control">
+                    <div class="section__content">
+                        <div class="telegram__link">
+                            <button class="button">Bizga telegramga
+                                qo'shiling</button>
+                            <img class="telegram__images"
+                                src="./images/telegram-img-white.png"
+                                alt="telegram">
+                        </div>
+                        <div class="serch_box">
+                            <form class="form js-form">
+                                <input class="search__input js-searchInput"
+                                    type="text" placeholder="Search film..."
+                                    aria-label="Search film...">
+                                <img class="search__img"
+                                    src="./images/search.webp" alt="search-img">
+                            </form>
+                            <div class="films__images">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="telegram__img" src="./images/Telegram_logo.svg.webp"
+                    alt="telegram logo">
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="section__control">
+                    <ul class="text__control js-text card-body">
+
+                    </ul>
+                </div>
+            </div>
+            <template class="js-template">
+                <li class="films__card js-items">
+                    <img class="img__control js-filmImg" src alt="films.name">
+                    <h3 class="films__name js-filmName"></h3>
+                    <p class="films__genres-control js-filmType"></p>
+                    <time class="film__time js-filmTime"></time>
+                </li>
+            </template>
+        </section>
+
+        <script src="./js/films.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
